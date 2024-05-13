@@ -234,6 +234,7 @@ if __name__ == '__main__':
         pl.legend()
         pl.title(what)
         pl.show()
+        sc.savefig('st_scenario.png')
 
     # To run more complex scenarios, you may want to set them up in a separate file
 
